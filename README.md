@@ -38,7 +38,8 @@ A modern landing page with smooth scrolling and an interactive navigation bar, d
 
 ## 📸 Preview
 
-![Landing Page Preview](preview.png)  
+![Landing Page Preview](![image](https://github.com/user-attachments/assets/0cfb525a-ffc5-4517-8ba5-264432cddee9)
+)  
 _A snapshot of the landing page in action._
 
 ## 📝 License
