@@ -150,6 +150,47 @@ body {
     padding: 2rem;
 }
 
+/* Stopwatch */
+.stopwatch-display {
+    font-family: monospace;
+    font-size: 3.5rem;
+    text-align: center;
+    margin: 2rem 0;
+    color: var(--primary);
+}
+
+.stopwatch-controls {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.icon-button {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 9999px;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.icon-button.start {
+    background: #22c55e;
+    color: white;
+}
+
+.icon-button.pause {
+    background: #ef4444;
+}
+
+.icon-button:not(.start):not(.pause) {
+    background: var(--bg-gray);
+    color: var(--text-secondary);
+}
+
 
 /* Animation */
 @keyframes fade-in {
