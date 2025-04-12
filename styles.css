@@ -191,6 +191,174 @@ body {
     color: var(--text-secondary);
 }
 
+/* Tic Tac Toe */
+.game-status {
+    text-align: center;
+    font-size: 1.25rem;
+    margin-bottom: 1.5rem;
+    min-height: 2rem;
+}
+
+.game-board {
+    display: grid;
+    gap: 0.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.board-row {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0.5rem;
+}
+
+.square {
+    width: 5rem;
+    height: 5rem;
+    border: 2px solid var(--border-color);
+    border-radius: 0.5rem;
+    background: none;
+    font-size: 2rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.square:hover {
+    background: var(--bg-gray);
+}
+
+.square.x {
+    color: var(--primary);
+}
+
+.square.o {
+    color: #ec4899;
+}
+
+.reset-button {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin: 0 auto;
+    padding: 0.75rem 1.5rem;
+    background: var(--primary);
+    color: white;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition: background 0.2s ease;
+}
+
+.reset-button:hover {
+    background: var(--primary-hover);
+}
+
+/* Todo List */
+.todo-input-container {
+    display: flex;
+    gap: 0.5rem;
+    margin-bottom: 2rem;
+}
+
+.todo-input {
+    flex: 1;
+    padding: 0.75rem 1rem;
+    border: 2px solid var(--border-color);
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    transition: border-color 0.2s ease;
+}
+
+.todo-input:focus {
+    outline: none;
+    border-color: var(--primary);
+}
+
+.add-button {
+    padding: 0.75rem;
+    background: var(--primary);
+    color: white;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition: background 0.2s ease;
+}
+
+.add-button:hover {
+    background: var(--primary-hover);
+}
+
+.todo-list {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.todo-item {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 1rem;
+    border: 2px solid var(--border-color);
+    border-radius: 0.5rem;
+    background: var(--bg-white);
+}
+
+.todo-item.completed {
+    background: #f0fdf4;
+    border-color: #86efac;
+}
+
+.todo-checkbox {
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 9999px;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    color: white;
+}
+
+.todo-checkbox.completed {
+    background: #22c55e;
+}
+
+.todo-checkbox:not(.completed) {
+    background: var(--bg-gray);
+}
+
+.todo-text {
+    flex: 1;
+    font-size: 1rem;
+}
+
+.todo-text.completed {
+    text-decoration: line-through;
+    color: var(--text-secondary);
+}
+
+.todo-actions {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.todo-button {
+    padding: 0.25rem;
+    background: none;
+    border: none;
+    cursor: pointer;
+    transition: color 0.2s ease;
+}
+
+.todo-button:hover {
+    color: var(--primary);
+}
+
+.todo-button.delete:hover {
+    color: #ef4444;
+}
 
 /* Animation */
 @keyframes fade-in {
