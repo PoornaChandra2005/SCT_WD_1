@@ -1,6 +1,6 @@
-# 🌐 Interactive Landing Page & Stopwatch
+# 🌐 Interactive Landing Page, Stopwatch, TicTacToe & Todo List
 
-A modern landing page with smooth scrolling, an interactive navigation bar, and a stylish stopwatch. Designed to enhance the user experience with seamless transitions and intuitive design.
+A modern multi-feature project including a smooth landing page, a functional stopwatch, a pass-and-play PvP TicTacToe game, and a basic to-do list. Designed to enhance user experience with seamless transitions, intuitive designs, and useful functionality.
 
 ## 🚀 Features
 
@@ -16,21 +16,35 @@ A modern landing page with smooth scrolling, an interactive navigation bar, and 
 - ✅ **Minimalist UI** – Elegant and easy to use.
 - ✅ **Accurate Millisecond Precision** – High accuracy time tracking.
 
+### **Task 3: TicTacToe (PvP)**
+- ✅ **Pass-and-Play** – Two players play alternately on the same device.
+- ✅ **Turn Indicator** – Clearly shows whose turn it is.
+- ✅ **Win Detection** – Declares a winner or draw when the game ends.
+- ✅ **Cracket Style Layout (for reference)** – Inspired by minimal PvP designs.
+
+### **Task 4: Todo List**
+- ✅ **Add Tasks** – Instantly add your todos.
+- ✅ **Edit Tasks** – Modify tasks inline.
+- ✅ **Delete Tasks** – Remove tasks easily.
+- ✅ **Minimal Design** – Clean and distraction-free.
+
 ## 📚 Project Structure
 
 ```
-📌 styles.css  # Contains all the styling for the page
-📌 script.js   # Handles smooth scrolling and navbar interactions
-📌 stopwatch.js # Handles stopwatch logic separately
-📌 index.html      # Main HTML file
-💃 README.md       # Project documentation
+📌 styles.css     # Contains all the styling for the page
+🔯 script.js      # Handles smooth scrolling and navbar interactions
+🔯 stopwatch.js   # Handles stopwatch logic separately
+🔯 tictactoe.js   # Handles PvP tic-tac-toe logic
+🔯 todolist.js    # Handles todo list interactions
+📀 index.html     # Main HTML file
+📃 README.md      # Project documentation
 ```
 
 ## 🛠️ Technologies Used
 
 - **HTML** – Structure of the page.
 - **CSS** – Styling and animations.
-- **JavaScript** – Smooth scrolling, navbar effects, and stopwatch functionality.
+- **JavaScript** – Interactive logic for all features.
 
 ## 💜 Installation & Usage
 
@@ -42,7 +56,7 @@ A modern landing page with smooth scrolling, an interactive navigation bar, and 
    ```sh
    cd SCT_MAR25_5327
    ```
-3. Open `index.html` in your browser to view the landing page and stopwatch.
+3. Open `index.html` in your browser to explore all features.
 
 ## 📝 License
 
@@ -52,4 +66,4 @@ This project is open-source and available under the [MIT License](LICENSE).
 
 💡 Feel free to fork, customize, and improve! Contributions are welcome. 😃
 
-📎 **GitHub Repository:** [SCT_MAR25_5327](https://github.com/PoornaChandra2005/SCT_MAR25_5327.git)
+📌 **GitHub Repository:** [SCT_MAR25_5327](https://github.com/PoornaChandra2005/SCT_MAR25_5327.git)
